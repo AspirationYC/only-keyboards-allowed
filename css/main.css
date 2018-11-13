@@ -2,6 +2,10 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+a:focus {
+  outline: 3px solid #fff;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
@@ -27,6 +31,10 @@ html {
 
 .btn-ghost:hover {
   background-color: rgba(180, 220, 255, .5);
+}
+
+.btn:focus {
+  outline: 3px solid #000;
 }
 
 .masthead {
